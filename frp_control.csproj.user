@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>F:\Git\frp-ui\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="pages\AutoStartPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\EditorPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\SamplesPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pages\AboutPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pages\AutoStartPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pages\EditorPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pages\SamplesPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

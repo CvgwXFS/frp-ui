@@ -1,0 +1,11 @@
+D:\class\毕业设计\C井号\frp_test03\frp_control\bin\Release\net8.0-windows\publish\win-x86\frp\frpc.exe
+D:\class\毕业设计\C井号\frp_test03\frp_control\bin\Release\net8.0-windows\publish\win-x86\frp\frpc.toml
+D:\class\毕业设计\C井号\frp_test03\frp_control\bin\Release\net8.0-windows\publish\win-x86\frp\frps.exe
+D:\class\毕业设计\C井号\frp_test03\frp_control\bin\Release\net8.0-windows\publish\win-x86\frp\frps.toml
+D:\class\毕业设计\C井号\frp_test03\frp_control\bin\Release\net8.0-windows\publish\win-x86\frp\LICENSE
+D:\class\毕业设计\C井号\frp_test03\frp_control\bin\Release\net8.0-windows\publish\win-x86\libs\Command.cs
+D:\class\毕业设计\C井号\frp_test03\frp_control\bin\Release\net8.0-windows\publish\win-x86\frp_control.exe
+D:\class\毕业设计\C井号\frp_test03\frp_control\bin\Release\net8.0-windows\publish\win-x86\frp_control.dll
+D:\class\毕业设计\C井号\frp_test03\frp_control\bin\Release\net8.0-windows\publish\win-x86\frp_control.deps.json
+D:\class\毕业设计\C井号\frp_test03\frp_control\bin\Release\net8.0-windows\publish\win-x86\frp_control.runtimeconfig.json
+D:\class\毕业设计\C井号\frp_test03\frp_control\bin\Release\net8.0-windows\publish\win-x86\frp_control.pdb

@@ -1,0 +1,57 @@
+﻿<Page x:Class="frp_control.pages.AboutPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:frp_control.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="700"
+      Title="AboutPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill" TileMode="None" Opacity="0.5" ImageSource="/images/xfs-bg.jpg">
+                <ImageBrush.RelativeTransform>
+                    <TransformGroup>
+                        <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                        <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                        <RotateTransform CenterX="0.5" CenterY="0.5"/>
+                        <TranslateTransform Y="0"/>
+                    </TransformGroup>
+                </ImageBrush.RelativeTransform>
+            </ImageBrush>
+        </Grid.Background>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel HorizontalAlignment="Center" Height="80" Margin="0,20,0,0" VerticalAlignment="Top" Width="640" Orientation="Horizontal">
+                <Border HorizontalAlignment="Left" Height="80" Margin="10,0,0,0">
+                    <Image Source="/images/xfs.ico"/>
+                </Border>
+                <StackPanel Height="60" Orientation="Horizontal" Margin="20,10,0,0">
+                    <TextBlock FontSize="36">
+                        Frp控制软件
+                    </TextBlock>
+                </StackPanel>
+            </StackPanel>
+            <ListView HorizontalAlignment="Center" Height="200" VerticalAlignment="Top" Width="640" Background="{x:Null}" Margin="0,20,0,0" FontSize="14" BorderBrush="{x:Null}">
+                <ListView.Items>
+                    <Label Content="软件版本：V0.24.2"/>
+                    <Label Content="本软件为免费软件，本软件为开源软件。"/>
+                    <Label Content="项目首页：（暂未公开）"/>
+                    <Label Content="https://github.com/CvgwXFS/frp-controller"/>
+                    <Label Content="使用的开源项目："/>
+                    <Label Content="https://github.com/fatedier/frp"/>
+                </ListView.Items>
+            </ListView>
+            <ListView HorizontalAlignment="Center" Height="200" VerticalAlignment="Top" Width="640" Background="{x:Null}" Margin="0,20,0,0" FontSize="14" BorderBrush="{x:Null}">
+                <ListView.Items>
+                    <Label Content="更新日志："/>
+                    <Label Content="部分操作增加二次确认"/>
+                    <Label Content="按钮修改"/>
+                    <Label Content="注意："/>
+                    <Label Content="最好不要同时启动多个frp程序，因为停止和重新启动都会关闭所有同名进程！"/>
+                </ListView.Items>
+            </ListView>
+        </StackPanel>
+        
+    </Grid>
+</Page>

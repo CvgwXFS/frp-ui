@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>frp_controller</id>
+    <version>1.0.0</version>
+    <authors>frp_control</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="77b5fccb20d4d6dd7b2cbc96007d54a755fa5139" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="Hardcodet.NotifyIcon.Wpf" version="2.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net8.0-windows7.0/frp/frpc-sample.toml" buildAction="Content" />
+      <files include="any/net8.0-windows7.0/frp/frpc.exe" buildAction="Content" />
+      <files include="any/net8.0-windows7.0/frp/frpc.toml" buildAction="Content" />
+      <files include="any/net8.0-windows7.0/frp/frps-sample.toml" buildAction="Content" />
+      <files include="any/net8.0-windows7.0/frp/frps.exe" buildAction="Content" />
+      <files include="any/net8.0-windows7.0/frp/frps.toml" buildAction="Content" />
+      <files include="any/net8.0-windows7.0/frp/LICENSE" buildAction="Content" />
+      <files include="any/net8.0-windows7.0/frp_old/frpc.exe" buildAction="Content" />
+      <files include="any/net8.0-windows7.0/frp_old/frpc.ini" buildAction="Content" />
+      <files include="any/net8.0-windows7.0/frp_old/frpc_full.ini" buildAction="Content" />
+      <files include="any/net8.0-windows7.0/frp_old/frps.exe" buildAction="Content" />
+      <files include="any/net8.0-windows7.0/frp_old/frps.ini" buildAction="Content" />
+      <files include="any/net8.0-windows7.0/frp_old/frps_full.ini" buildAction="Content" />
+      <files include="any/net8.0-windows7.0/frp_old/LICENSE" buildAction="Content" />
+      <files include="any/net8.0-windows7.0/images/xfs-no.ico" buildAction="Content" />
+      <files include="any/net8.0-windows7.0/images/xfs.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="D:\Git\frp-controller\bin\Debug\net8.0-windows\frp_controller.runtimeconfig.json" target="lib\net8.0-windows7.0\frp_controller.runtimeconfig.json" />
+    <file src="D:\Git\frp-controller\bin\Debug\net8.0-windows\frp_controller.dll" target="lib\net8.0-windows7.0\frp_controller.dll" />
+    <file src="D:\Git\frp-controller\frp\frpc-sample.toml" target="content\frp\frpc-sample.toml" />
+    <file src="D:\Git\frp-controller\frp\frpc-sample.toml" target="contentFiles\any\net8.0-windows7.0\frp\frpc-sample.toml" />
+    <file src="D:\Git\frp-controller\frp\frpc.exe" target="content\frp\frpc.exe" />
+    <file src="D:\Git\frp-controller\frp\frpc.exe" target="contentFiles\any\net8.0-windows7.0\frp\frpc.exe" />
+    <file src="D:\Git\frp-controller\frp\frpc.toml" target="content\frp\frpc.toml" />
+    <file src="D:\Git\frp-controller\frp\frpc.toml" target="contentFiles\any\net8.0-windows7.0\frp\frpc.toml" />
+    <file src="D:\Git\frp-controller\frp\frps-sample.toml" target="content\frp\frps-sample.toml" />
+    <file src="D:\Git\frp-controller\frp\frps-sample.toml" target="contentFiles\any\net8.0-windows7.0\frp\frps-sample.toml" />
+    <file src="D:\Git\frp-controller\frp\frps.exe" target="content\frp\frps.exe" />
+    <file src="D:\Git\frp-controller\frp\frps.exe" target="contentFiles\any\net8.0-windows7.0\frp\frps.exe" />
+    <file src="D:\Git\frp-controller\frp\frps.toml" target="content\frp\frps.toml" />
+    <file src="D:\Git\frp-controller\frp\frps.toml" target="contentFiles\any\net8.0-windows7.0\frp\frps.toml" />
+    <file src="D:\Git\frp-controller\frp\LICENSE" target="content\frp\LICENSE" />
+    <file src="D:\Git\frp-controller\frp\LICENSE" target="contentFiles\any\net8.0-windows7.0\frp\LICENSE" />
+    <file src="D:\Git\frp-controller\frp_old\frpc.exe" target="content\frp_old\frpc.exe" />
+    <file src="D:\Git\frp-controller\frp_old\frpc.exe" target="contentFiles\any\net8.0-windows7.0\frp_old\frpc.exe" />
+    <file src="D:\Git\frp-controller\frp_old\frpc.ini" target="content\frp_old\frpc.ini" />
+    <file src="D:\Git\frp-controller\frp_old\frpc.ini" target="contentFiles\any\net8.0-windows7.0\frp_old\frpc.ini" />
+    <file src="D:\Git\frp-controller\frp_old\frpc_full.ini" target="content\frp_old\frpc_full.ini" />
+    <file src="D:\Git\frp-controller\frp_old\frpc_full.ini" target="contentFiles\any\net8.0-windows7.0\frp_old\frpc_full.ini" />
+    <file src="D:\Git\frp-controller\frp_old\frps.exe" target="content\frp_old\frps.exe" />
+    <file src="D:\Git\frp-controller\frp_old\frps.exe" target="contentFiles\any\net8.0-windows7.0\frp_old\frps.exe" />
+    <file src="D:\Git\frp-controller\frp_old\frps.ini" target="content\frp_old\frps.ini" />
+    <file src="D:\Git\frp-controller\frp_old\frps.ini" target="contentFiles\any\net8.0-windows7.0\frp_old\frps.ini" />
+    <file src="D:\Git\frp-controller\frp_old\frps_full.ini" target="content\frp_old\frps_full.ini" />
+    <file src="D:\Git\frp-controller\frp_old\frps_full.ini" target="contentFiles\any\net8.0-windows7.0\frp_old\frps_full.ini" />
+    <file src="D:\Git\frp-controller\frp_old\LICENSE" target="content\frp_old\LICENSE" />
+    <file src="D:\Git\frp-controller\frp_old\LICENSE" target="contentFiles\any\net8.0-windows7.0\frp_old\LICENSE" />
+    <file src="D:\Git\frp-controller\images\xfs-no.ico" target="content\images\xfs-no.ico" />
+    <file src="D:\Git\frp-controller\images\xfs-no.ico" target="contentFiles\any\net8.0-windows7.0\images\xfs-no.ico" />
+    <file src="D:\Git\frp-controller\images\xfs.ico" target="content\images\xfs.ico" />
+    <file src="D:\Git\frp-controller\images\xfs.ico" target="contentFiles\any\net8.0-windows7.0\images\xfs.ico" />
+  </files>
+</package>

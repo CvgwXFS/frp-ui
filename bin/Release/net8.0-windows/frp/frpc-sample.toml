@@ -1,0 +1,77 @@
+# main
+serverAddr = "127.0.0.1"
+serverPort = 7000
+# token
+auth.token = "12345678"
+# tcp
+[[proxies]]
+name = "test-tcp"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 3389
+remotePort = 6000
+# udp
+[[proxies]]
+name = "test-udp"
+type = "udp"
+localIP = "127.0.0.1"
+localPort = 3389
+remotePort = 6001
+# stcp
+[[proxies]]
+name = "test-stcp"
+type = "stcp"
+secretKey = "12345678"
+localIP = "127.0.0.1"
+localPort = 3389
+# stcp-visitor
+[[visitors]]
+name = "test-stcp-visitor"
+type = "stcp"
+serverName = "test-stcp"
+secretKey = "12345678"
+bindAddr = "127.0.0.1"
+bindPort = 6000
+# sudp
+[[proxies]]
+name = "test-sudp"
+type = "sudp"
+secretKey = "12345678"
+localIP = "127.0.0.1"
+localPort = 3389
+# sudp-visitor
+[[visitors]]
+name = "test-sudp-visitor"
+type = "sudp"
+serverName = "test-sudp"
+secretKey = "12345678"
+bindAddr = "127.0.0.1"
+bindPort = 6001
+# http (need vhostHTTPPort in frps.toml)
+[[proxies]]
+name = "web"
+type = "http"
+localPort = 80
+customDomains = ["www.example.com"]
+# https (need vhostHTTPSPort in frps.toml)
+[[proxies]]
+name = "web"
+type = "https"
+localPort = 443
+customDomains = ["www.example.com"]
+# tcpmux
+[[proxies]]
+name = "proxy1"
+type = "tcpmux"
+multiplexer = "httpconnect"
+customDomains = ["test1"]
+localPort = 80
+# tls
+transport.tls.enable = true
+transport.tls.certFile = "certificate.crt"
+transport.tls.keyFile = "certificate.key"
+transport.tls.trustedCaFile = "ca.crt"
+# others
+transport.useEncryption = true
+transport.useCompression = true
+# end

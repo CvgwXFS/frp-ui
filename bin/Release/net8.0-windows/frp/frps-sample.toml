@@ -1,0 +1,25 @@
+bindPort = 7000
+
+# The default value is 127.0.0.1. Change it to 0.0.0.0 when you want to access it from a public network.
+webServer.addr = "0.0.0.0"
+webServer.port = 7500
+
+# dashboard's username and password are both optional
+webServer.user = "admin"
+webServer.password = "admin"
+
+#dashboard's https
+webServer.tls.certFile = "server.crt"
+webServer.tls.keyFile = "server.key"
+
+# tls
+transport.tls.force = true
+transport.tls.certFile = "certificate.crt"
+transport.tls.keyFile = "certificate.key"
+transport.tls.trustedCaFile = "ca.crt"
+
+# others
+auth.token = "12345678"
+vhostHTTPPort = 8080
+vhostHTTPSPort = 8081
+tcpmuxHTTPConnectPort = 1337

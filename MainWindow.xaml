@@ -1,0 +1,82 @@
+﻿<Window x:Class="frp_control.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:frp_control"
+        mc:Ignorable="d"
+        Title="小風神可爱捏可爱捏( ^ v ^)◞♡" Width="915" MinWidth="210" Height="650" MinHeight="650" Closing="close" Background="WhiteSmoke" Closed="closed">
+    <Grid>
+
+        <StackPanel HorizontalAlignment="Left" Width="195" Background="WhiteSmoke">
+            <Image x:Name="ImageXfs" Height="128" Width="128" Margin="0,25,0,0" Source="/images/xfs.ico" MouseLeftButtonDown="ClickXfs"/>
+            <TextBlock x:Name="Home_Button" Height="75" TextWrapping="Wrap" Width="190" Background="White" TextAlignment="Center" Margin="10,25,0,5" FontSize="18" FontFamily="Microsoft YaHei" MouseLeftButtonDown="ChangeToHomePage" Foreground="#FF7F7F7F"><Run/><LineBreak/><Run Text="主面板"/></TextBlock>
+            <TextBlock x:Name="Editor_Button" Height="75" TextWrapping="Wrap" Width="190" Background="White" TextAlignment="Center" Margin="10,5,0,5" FontSize="18" FontFamily="Microsoft YaHei" MouseLeftButtonDown="ChangeToEditorPage" Foreground="#FF7F7F7F"><Run/><LineBreak/><Run Text="配置文件编辑"/></TextBlock>
+            <TextBlock x:Name="Samples_Button" Height="75" TextWrapping="Wrap" Width="190" Background="White" TextAlignment="Center" Margin="10,5,0,5" FontSize="18" FontFamily="Microsoft YaHei" MouseLeftButtonDown="ChangeToSamplesPage" Foreground="#FF7F7F7F"><Run/><LineBreak/><Run Text="配置文件参考"/></TextBlock>
+            <TextBlock x:Name="AutoStart_Button" Height="75" TextWrapping="Wrap" Width="190" Background="White" TextAlignment="Center" Margin="10,5,0,5" FontSize="18" FontFamily="Microsoft YaHei" MouseLeftButtonDown="ChangeToAutoStartPage" Foreground="#FF7F7F7F"><Run/><LineBreak/><Run Text="自启动设置"/></TextBlock>
+            <TextBlock x:Name="About_Button" Height="75" TextWrapping="Wrap" Width="190" Background="White" TextAlignment="Center" Margin="10,5,0,5" FontSize="18" FontFamily="Microsoft YaHei" MouseLeftButtonDown="ChangeToAboutPage" Foreground="#FF7F7F7F"><Run/><LineBreak/><Run Text="关于"/></TextBlock>
+        </StackPanel>
+
+        <TabControl HorizontalAlignment="Left" Margin="195,0,0,0" VerticalAlignment="Top">
+            <TabItem Header="Frpc（客户端）">
+                <Grid Background="WhiteSmoke">
+                    <StackPanel HorizontalAlignment="Center" Height="500" VerticalAlignment="Top" Width="714" Background="White">
+                        <TextBlock Height="26" TextWrapping="Wrap" Text="Frpc（客户端）" Width="640" Margin="0,20,0,0" FontSize="20" FontWeight="Bold"/>
+                        <TextBox x:Name="FrpcText" Height="400" TextWrapping="Wrap" Text="" Width="660" Margin="0,20,0,0" VerticalScrollBarVisibility="Auto" IsReadOnly="True"/>
+                    </StackPanel>
+                    <DockPanel HorizontalAlignment="Left" Height="75" LastChildFill="False" Margin="0,505,0,0" VerticalAlignment="Top" Background="White">
+                        <Button x:Name="FrpcStartButton1" Content="启动" Width="80" Height="50" Margin="25,0,0,0" Click="FrpcStartButton1_Click"/>
+                        <Button x:Name="FrpcRestartButton1" Content="重新启动" Width="80" Height="50" Margin="30,0,0,0" Click="FrpcRestartButton1_Click"/>
+                        <Button x:Name="FrpcClearButton1" Content="清空日志" Width="80" Height="50" Margin="30,0,0,0" Click="FrpcClearButton1_Click"/>
+                        <Button x:Name="FrpcStopButton1" Content="停止" Width="60" Height="40" Margin="60,0,30,0" Click="FrpcStopButton1_Click" Background="Red" Foreground="White"/>
+                    </DockPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Frps（服务端）">
+                <Grid Background="WhiteSmoke">
+                    <StackPanel HorizontalAlignment="Center" Height="500" VerticalAlignment="Top" Width="714" Background="White">
+                        <TextBlock Height="26" TextWrapping="Wrap" Text="Frps（服务端）" Width="640" Margin="0,20,0,0" FontSize="20" FontWeight="Bold"/>
+                        <TextBox x:Name="FrpsText" Height="400" TextWrapping="Wrap" Text="" Width="660" Margin="0,20,0,0" VerticalScrollBarVisibility="Auto" IsReadOnly="True"/>
+                    </StackPanel>
+                    <DockPanel HorizontalAlignment="Left" Height="75" LastChildFill="False" Margin="0,505,0,0" VerticalAlignment="Top" Background="White">
+                        <Button x:Name="FrpsStartButton1" Content="启动" Width="80" Height="50" Margin="25,0,0,0" Click="FrpsStartButton1_Click"/>
+                        <Button x:Name="FrpsRestartButton1" Content="重新启动" Width="80" Height="50" Margin="30,0,0,0" Click="FrpsRestartButton1_Click"/>
+                        <Button x:Name="FrpsClearButton1" Content="清空日志" Width="80" Height="50" Margin="30,0,0,0" Click="FrpsClearButton1_Click"/>
+                        <Button x:Name="FrpsStopButton1" Content="停止" Width="60" Height="40" Margin="60,0,30,0" Click="FrpsStopButton1_Click" Background="Red" Foreground="White"/>
+                    </DockPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Frpc 32位 V0.51.3（客户端）">
+                <Grid Background="WhiteSmoke">
+                    <StackPanel HorizontalAlignment="Center" Height="500" VerticalAlignment="Top" Width="714" Background="White">
+                        <TextBlock Height="26" TextWrapping="Wrap" Text="Frpc 32位 V0.51.3（客户端）" Width="640" Margin="0,20,0,0" FontSize="20" FontWeight="Bold"/>
+                        <TextBox x:Name="FrpcOldText" Height="400" TextWrapping="Wrap" Text="" Width="660" Margin="0,20,0,0" VerticalScrollBarVisibility="Auto" IsReadOnly="True"/>
+                    </StackPanel>
+                    <DockPanel HorizontalAlignment="Left" Height="75" LastChildFill="False" Margin="0,505,0,0" VerticalAlignment="Top" Background="White">
+                        <Button x:Name="FrpcOldStartButton1" Content="启动" Width="80" Height="50" Margin="25,0,0,0" Click="FrpcOldStartButton1_Click"/>
+                        <Button x:Name="FrpcOldRestartButton1" Content="重新启动" Width="80" Height="50" Margin="30,0,0,0" Click="FrpcOldRestartButton1_Click"/>
+                        <Button x:Name="FrpcOldClearButton1" Content="清空日志" Width="80" Height="50" Margin="30,0,0,0" Click="FrpcOldClearButton1_Click"/>
+                        <Button x:Name="FrpcOldStopButton1" Content="停止" Width="60" Height="40" Margin="60,0,30,0" Click="FrpcOldStopButton1_Click" Background="Red" Foreground="White"/>
+                    </DockPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Frps 32位 V0.51.3（服务端）">
+                <Grid Background="WhiteSmoke">
+                    <StackPanel HorizontalAlignment="Center" Height="500" VerticalAlignment="Top" Width="714" Background="White">
+                        <TextBlock Height="26" TextWrapping="Wrap" Text="Frps 32位 V0.51.3（服务端）" Width="640" Margin="0,20,0,0" FontSize="20" FontWeight="Bold"/>
+                        <TextBox x:Name="FrpsOldText" Height="400" TextWrapping="Wrap" Text="" Width="660" Margin="0,20,0,0" VerticalScrollBarVisibility="Auto" IsReadOnly="True"/>
+                    </StackPanel>
+                    <DockPanel HorizontalAlignment="Left" Height="75" LastChildFill="False" Margin="0,505,0,0" VerticalAlignment="Top" Background="White">
+                        <Button x:Name="FrpsOldStartButton1" Content="启动" Width="80" Height="50" Margin="25,0,0,0" Click="FrpsOldStartButton1_Click"/>
+                        <Button x:Name="FrpsOldRestartButton1" Content="重新启动" Width="80" Height="50" Margin="30,0,0,0" Click="FrpsOldRestartButton1_Click"/>
+                        <Button x:Name="FrpsOldClearButton1" Content="清空日志" Width="80" Height="50" Margin="30,0,0,0" Click="FrpsOldClearButton1_Click"/>
+                        <Button x:Name="FrpsOldStopButton1" Content="停止" Width="60" Height="40" Margin="60,0,30,0" Click="FrpsOldStopButton1_Click" Background="Red" Foreground="White"/>
+                    </DockPanel>
+                </Grid>
+            </TabItem>
+            
+        </TabControl>
+
+        <Frame x:Name="MainFrame" Margin="195,0,0,0" NavigationUIVisibility="Hidden" Source="/pages/AboutPage.xaml" Visibility="Hidden" Background="WhiteSmoke"/>
+    </Grid>
+</Window>

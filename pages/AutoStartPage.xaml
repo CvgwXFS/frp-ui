@@ -1,0 +1,37 @@
+﻿<Page x:Class="frp_control.pages.AutoStartPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:frp_control.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="700"
+      Title="AutoStartPage">
+
+    <Grid Background="White">
+        <StackPanel HorizontalAlignment="Left" Margin="30,50,0,0" VerticalAlignment="Top" Width="640">
+            <TextBlock Height="36" TextWrapping="Wrap" Text="  自动启动控制" Width="200" HorizontalAlignment="Left" Margin="40,20,0,0" FontSize="24" Background="WhiteSmoke"/>
+            <DockPanel Height="80" LastChildFill="False" Width="560" Background="WhiteSmoke" Margin="0,20,0,0">
+                <TextBlock Margin="25,0,0,0" TextWrapping="Wrap" Text="Frpc（客户端）" Height="30" Width="220" FontSize="18"/>
+                <Button x:Name="FrpcYesButton" Content="开启" Height="50" Width="100" Margin="30,0,0,0" Click="FrpcYesButton_Click"/>
+                <Button x:Name="FrpcNoButton" Content="关闭" Height="50" Width="100" Margin="30,0,0,0" Click="FrpcNoButton_Click"/>
+            </DockPanel>
+            <DockPanel Height="80" LastChildFill="False" Width="560" Background="WhiteSmoke" Margin="0,20,0,0">
+                <TextBlock Margin="25,0,0,0" TextWrapping="Wrap" Text="Frps（服务端）" Height="30" Width="220" FontSize="18"/>
+                <Button x:Name="FrpsYesButton" Content="开启" Height="50" Width="100" Margin="30,0,0,0" Click="FrpsYesButton_Click"/>
+                <Button x:Name="FrpsNoButton" Content="关闭" Height="50" Width="100" Margin="30,0,0,0" Click="FrpsNoButton_Click"/>
+            </DockPanel>
+            <DockPanel Height="80" LastChildFill="False" Width="560" Background="WhiteSmoke" Margin="0,20,0,0">
+                <TextBlock Margin="25,0,0,0" TextWrapping="Wrap" Text="Frpc 老32位（客户端）" Height="30" Width="220" FontSize="18"/>
+                <Button x:Name="FrpcOldYesButton" Content="开启" Height="50" Width="100" Margin="30,0,0,0" Click="FrpcOldYesButton_Click"/>
+                <Button x:Name="FrpcOldNoButton" Content="关闭" Height="50" Width="100" Margin="30,0,0,0" Click="FrpcOldNoButton_Click"/>
+            </DockPanel>
+            <DockPanel Height="80" LastChildFill="False" Width="560" Background="WhiteSmoke" Margin="0,20,0,0">
+                <TextBlock Margin="25,0,0,0" TextWrapping="Wrap" Text="Frps 老32位（服务端）" Height="30" Width="220" FontSize="18"/>
+                <Button x:Name="FrpsOldYesButton" Content="开启" Height="50" Width="100" Margin="30,0,0,0" Click="FrpsOldYesButton_Click"/>
+                <Button x:Name="FrpsOldNoButton" Content="关闭" Height="50" Width="100" Margin="30,0,0,0" Click="FrpsOldNoButton_Click"/>
+            </DockPanel>
+        </StackPanel>
+
+    </Grid>
+</Page>

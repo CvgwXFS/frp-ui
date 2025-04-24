@@ -1,0 +1,12 @@
+J:\GitHub\frp-controller\bin\Release\net8.0-windows\publish\win-x86\frp\frpc-sample.toml
+J:\GitHub\frp-controller\bin\Release\net8.0-windows\publish\win-x86\frp\frpc.exe
+J:\GitHub\frp-controller\bin\Release\net8.0-windows\publish\win-x86\frp\frpc.toml
+J:\GitHub\frp-controller\bin\Release\net8.0-windows\publish\win-x86\frp\frps-sample.toml
+J:\GitHub\frp-controller\bin\Release\net8.0-windows\publish\win-x86\frp\frps.exe
+J:\GitHub\frp-controller\bin\Release\net8.0-windows\publish\win-x86\frp\frps.toml
+J:\GitHub\frp-controller\bin\Release\net8.0-windows\publish\win-x86\frp\LICENSE
+J:\GitHub\frp-controller\bin\Release\net8.0-windows\publish\win-x86\frp_control.exe
+J:\GitHub\frp-controller\bin\Release\net8.0-windows\publish\win-x86\frp_control.dll
+J:\GitHub\frp-controller\bin\Release\net8.0-windows\publish\win-x86\frp_control.deps.json
+J:\GitHub\frp-controller\bin\Release\net8.0-windows\publish\win-x86\frp_control.runtimeconfig.json
+J:\GitHub\frp-controller\bin\Release\net8.0-windows\publish\win-x86\frp_control.pdb

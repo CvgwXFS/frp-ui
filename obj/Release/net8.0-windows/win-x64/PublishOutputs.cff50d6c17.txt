@@ -1,0 +1,12 @@
+D:\新建文件夹\op2\frp\frpc-sample.toml
+D:\新建文件夹\op2\frp\frpc.exe
+D:\新建文件夹\op2\frp\frpc.toml
+D:\新建文件夹\op2\frp\frps-sample.toml
+D:\新建文件夹\op2\frp\frps.exe
+D:\新建文件夹\op2\frp\frps.toml
+D:\新建文件夹\op2\frp\LICENSE
+D:\新建文件夹\op2\frp_control.exe
+D:\新建文件夹\op2\frp_control.dll
+D:\新建文件夹\op2\frp_control.deps.json
+D:\新建文件夹\op2\frp_control.runtimeconfig.json
+D:\新建文件夹\op2\frp_control.dll.config

@@ -1,0 +1,5 @@
+E:\class\毕业设计\C井号\frp_test03\frp_control\bin\Release\net8.0-windows\publish\frp_control.exe
+E:\class\毕业设计\C井号\frp_test03\frp_control\bin\Release\net8.0-windows\publish\frp_control.dll
+E:\class\毕业设计\C井号\frp_test03\frp_control\bin\Release\net8.0-windows\publish\frp_control.deps.json
+E:\class\毕业设计\C井号\frp_test03\frp_control\bin\Release\net8.0-windows\publish\frp_control.runtimeconfig.json
+E:\class\毕业设计\C井号\frp_test03\frp_control\bin\Release\net8.0-windows\publish\frp_control.pdb

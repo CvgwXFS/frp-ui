@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>frp_control</id>
+    <version>1.0.0</version>
+    <authors>frp_control</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net8.0-windows7.0/frp/frpc.exe" buildAction="Content" />
+      <files include="any/net8.0-windows7.0/frp/frpc.toml" buildAction="Content" />
+      <files include="any/net8.0-windows7.0/frp/frps.exe" buildAction="Content" />
+      <files include="any/net8.0-windows7.0/frp/frps.toml" buildAction="Content" />
+      <files include="any/net8.0-windows7.0/frp/LICENSE" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="D:\class\毕业设计\C井号\frp_test03\frp_control\bin\Debug\net8.0-windows\frp_control.runtimeconfig.json" target="lib\net8.0-windows7.0\frp_control.runtimeconfig.json" />
+    <file src="D:\class\毕业设计\C井号\frp_test03\frp_control\bin\Debug\net8.0-windows\frp_control.dll" target="lib\net8.0-windows7.0\frp_control.dll" />
+    <file src="D:\class\毕业设计\C井号\frp_test03\frp_control\frp\frpc.exe" target="content\frp\frpc.exe" />
+    <file src="D:\class\毕业设计\C井号\frp_test03\frp_control\frp\frpc.exe" target="contentFiles\any\net8.0-windows7.0\frp\frpc.exe" />
+    <file src="D:\class\毕业设计\C井号\frp_test03\frp_control\frp\frpc.toml" target="content\frp\frpc.toml" />
+    <file src="D:\class\毕业设计\C井号\frp_test03\frp_control\frp\frpc.toml" target="contentFiles\any\net8.0-windows7.0\frp\frpc.toml" />
+    <file src="D:\class\毕业设计\C井号\frp_test03\frp_control\frp\frps.exe" target="content\frp\frps.exe" />
+    <file src="D:\class\毕业设计\C井号\frp_test03\frp_control\frp\frps.exe" target="contentFiles\any\net8.0-windows7.0\frp\frps.exe" />
+    <file src="D:\class\毕业设计\C井号\frp_test03\frp_control\frp\frps.toml" target="content\frp\frps.toml" />
+    <file src="D:\class\毕业设计\C井号\frp_test03\frp_control\frp\frps.toml" target="contentFiles\any\net8.0-windows7.0\frp\frps.toml" />
+    <file src="D:\class\毕业设计\C井号\frp_test03\frp_control\frp\LICENSE" target="content\frp\LICENSE" />
+    <file src="D:\class\毕业设计\C井号\frp_test03\frp_control\frp\LICENSE" target="contentFiles\any\net8.0-windows7.0\frp\LICENSE" />
+  </files>
+</package>
