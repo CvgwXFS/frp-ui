@@ -262,3 +262,4 @@ F:\Git\frp-ui\obj\Debug\net8.0-windows\ref\frp_controller.dll
 F:\Git\frp-ui\bin\Debug\net8.0-windows\images\xfs.ico
 F:\Git\frp-ui\bin\Debug\net8.0-windows\images\xfs-no.ico
 F:\Git\frp-ui\bin\Debug\net8.0-windows\images\xfs-bg.jpg
+F:\Git\frp-ui\obj\Debug\net8.0-windows\frp_control.sourcelink.json

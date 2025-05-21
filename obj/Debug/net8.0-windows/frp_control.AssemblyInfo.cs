@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("frp_control")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.24.1")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db7f9ae85092618b93cd1c11ea514ad175f6a5ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("frp_control")]
 [assembly: System.Reflection.AssemblyTitleAttribute("frp_controller")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.24.1")]

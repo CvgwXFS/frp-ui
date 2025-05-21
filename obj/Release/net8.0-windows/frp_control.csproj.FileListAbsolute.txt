@@ -252,3 +252,4 @@ F:\Git\frp-ui\obj\Release\net8.0-windows\frp_controller.dll
 F:\Git\frp-ui\obj\Release\net8.0-windows\refint\frp_controller.dll
 F:\Git\frp-ui\obj\Release\net8.0-windows\frp_control.genruntimeconfig.cache
 F:\Git\frp-ui\obj\Release\net8.0-windows\ref\frp_controller.dll
+F:\Git\frp-ui\obj\Release\net8.0-windows\frp_control.sourcelink.json
