@@ -118,7 +118,7 @@ namespace frp_control.pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/frp_controller;V0.24.1;component/pages/samplespage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/frp_controller;V0.24.3;component/pages/samplespage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\pages\SamplesPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

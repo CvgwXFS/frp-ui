@@ -118,7 +118,7 @@ namespace frp_control.pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/frp_controller;V0.24.1;component/pages/autostartpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/frp_controller;V0.24.3;component/pages/autostartpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\pages\AutoStartPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

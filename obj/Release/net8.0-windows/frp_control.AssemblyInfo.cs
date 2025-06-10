@@ -13,11 +13,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("frp_control")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("0.24.1")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db7f9ae85092618b93cd1c11ea514ad175f6a5ca")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("0.24.3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54db74502fcf7d06207a00e5bb877d221875910c")]
 [assembly: System.Reflection.AssemblyProductAttribute("frp_control")]
 [assembly: System.Reflection.AssemblyTitleAttribute("frp_controller")]
-[assembly: System.Reflection.AssemblyVersionAttribute("0.24.1")]
+[assembly: System.Reflection.AssemblyVersionAttribute("0.24.3")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 

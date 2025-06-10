@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{2A730203-0766-43DA-96B4-C62D77F52BA3}|frp_control.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2A730203-0766-43DA-96B4-C62D77F52BA3}|frp_control.csproj|f:\\git\\frp-ui\\frp_control.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2A730203-0766-43DA-96B4-C62D77F52BA3}|frp_control.csproj|solutionrelative:frp_control.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A730203-0766-43DA-96B4-C62D77F52BA3}|frp_control.csproj|f:\\git\\frp-ui\\frp_control.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2A730203-0766-43DA-96B4-C62D77F52BA3}|frp_control.csproj|solutionrelative:frp_control.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A730203-0766-43DA-96B4-C62D77F52BA3}|frp_control.csproj|f:\\git\\frp-ui\\pages\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A730203-0766-43DA-96B4-C62D77F52BA3}|frp_control.csproj|solutionrelative:pages\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2A730203-0766-43DA-96B4-C62D77F52BA3}|frp_control.csproj|f:\\git\\frp-ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A730203-0766-43DA-96B4-C62D77F52BA3}|frp_control.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2A730203-0766-43DA-96B4-C62D77F52BA3}|frp_control.csproj|f:\\git\\frp-ui\\pages\\autostartpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2A730203-0766-43DA-96B4-C62D77F52BA3}|frp_control.csproj|solutionrelative:pages\\autostartpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A730203-0766-43DA-96B4-C62D77F52BA3}|frp_control.csproj|f:\\git\\frp-ui\\pages\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2A730203-0766-43DA-96B4-C62D77F52BA3}|frp_control.csproj|solutionrelative:pages\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,36 +42,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frp_control",
+              "DocumentMoniker": "F:\\Git\\frp-ui\\frp_control.csproj",
+              "RelativeDocumentMoniker": "frp_control.csproj",
+              "ToolTip": "F:\\Git\\frp-ui\\frp_control.csproj*",
+              "RelativeToolTip": "frp_control.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-10T12:50:12.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "frp_control",
+              "DocumentMoniker": "F:\\Git\\frp-ui\\frp_control.csproj",
+              "RelativeDocumentMoniker": "frp_control.csproj",
+              "ToolTip": "F:\\Git\\frp-ui\\frp_control.csproj",
+              "RelativeToolTip": "frp_control.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-10T12:50:26.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "F:\\Git\\frp-ui\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "F:\\Git\\frp-ui\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAABQCAAAAAAAAAAAcwC8CAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEUBAAAAAAAAAAAswGQBAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T05:04:28.875Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "SamplesPage.xaml",
               "DocumentMoniker": "F:\\Git\\frp-ui\\pages\\SamplesPage.xaml",
               "RelativeDocumentMoniker": "pages\\SamplesPage.xaml",
               "ToolTip": "F:\\Git\\frp-ui\\pages\\SamplesPage.xaml",
               "RelativeToolTip": "pages\\SamplesPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-08T05:41:19.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T05:41:19.346Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "EditorPage.xaml",
               "DocumentMoniker": "F:\\Git\\frp-ui\\pages\\EditorPage.xaml",
               "RelativeDocumentMoniker": "pages\\EditorPage.xaml",
@@ -74,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AutoStartPage.xaml",
               "DocumentMoniker": "F:\\Git\\frp-ui\\pages\\AutoStartPage.xaml",
               "RelativeDocumentMoniker": "pages\\AutoStartPage.xaml",
@@ -85,14 +117,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "AboutPage.xaml",
               "DocumentMoniker": "F:\\Git\\frp-ui\\pages\\AboutPage.xaml",
               "RelativeDocumentMoniker": "pages\\AboutPage.xaml",
               "ToolTip": "F:\\Git\\frp-ui\\pages\\AboutPage.xaml",
               "RelativeToolTip": "pages\\AboutPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-08T05:40:40.789Z"
+              "WhenOpened": "2025-05-08T05:40:40.789Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

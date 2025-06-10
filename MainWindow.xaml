@@ -22,7 +22,7 @@
                 <Grid Background="WhiteSmoke">
                     <StackPanel HorizontalAlignment="Center" Height="500" VerticalAlignment="Top" Width="714" Background="White">
                         <TextBlock Height="26" TextWrapping="Wrap" Text="Frpc（客户端）" Width="640" Margin="0,20,0,0" FontSize="20" FontWeight="Bold"/>
-                        <TextBox x:Name="FrpcText" Height="400" TextWrapping="Wrap" Text="" Width="660" Margin="0,20,0,0" VerticalScrollBarVisibility="Auto" IsReadOnly="True" UndoLimit="10"/>
+                        <TextBox x:Name="FrpcText" Height="400" TextWrapping="Wrap" Text="" Width="660" Margin="0,20,0,0" VerticalScrollBarVisibility="Auto" IsReadOnly="True" UndoLimit="1"/>
                     </StackPanel>
                     <DockPanel HorizontalAlignment="Left" Height="75" LastChildFill="False" Margin="0,505,0,0" VerticalAlignment="Top" Background="White">
                         <Button x:Name="FrpcStartButton1" Content="启动" Width="80" Height="50" Margin="25,0,0,0" Click="FrpcStartButton1_Click"/>
@@ -36,7 +36,7 @@
                 <Grid Background="WhiteSmoke">
                     <StackPanel HorizontalAlignment="Center" Height="500" VerticalAlignment="Top" Width="714" Background="White">
                         <TextBlock Height="26" TextWrapping="Wrap" Text="Frps（服务端）" Width="640" Margin="0,20,0,0" FontSize="20" FontWeight="Bold"/>
-                        <TextBox x:Name="FrpsText" Height="400" TextWrapping="Wrap" Text="" Width="660" Margin="0,20,0,0" VerticalScrollBarVisibility="Auto" IsReadOnly="True" UndoLimit="10"/>
+                        <TextBox x:Name="FrpsText" Height="400" TextWrapping="Wrap" Text="" Width="660" Margin="0,20,0,0" VerticalScrollBarVisibility="Auto" IsReadOnly="True" UndoLimit="1"/>
                     </StackPanel>
                     <DockPanel HorizontalAlignment="Left" Height="75" LastChildFill="False" Margin="0,505,0,0" VerticalAlignment="Top" Background="White">
                         <Button x:Name="FrpsStartButton1" Content="启动" Width="80" Height="50" Margin="25,0,0,0" Click="FrpsStartButton1_Click"/>
@@ -50,7 +50,7 @@
                 <Grid Background="WhiteSmoke">
                     <StackPanel HorizontalAlignment="Center" Height="500" VerticalAlignment="Top" Width="714" Background="White">
                         <TextBlock Height="26" TextWrapping="Wrap" Text="Frpc 32位 V0.51.3（客户端）" Width="640" Margin="0,20,0,0" FontSize="20" FontWeight="Bold"/>
-                        <TextBox x:Name="FrpcOldText" Height="400" TextWrapping="Wrap" Text="" Width="660" Margin="0,20,0,0" VerticalScrollBarVisibility="Auto" IsReadOnly="True" UndoLimit="10"/>
+                        <TextBox x:Name="FrpcOldText" Height="400" TextWrapping="Wrap" Text="" Width="660" Margin="0,20,0,0" VerticalScrollBarVisibility="Auto" IsReadOnly="True" UndoLimit="1"/>
                     </StackPanel>
                     <DockPanel HorizontalAlignment="Left" Height="75" LastChildFill="False" Margin="0,505,0,0" VerticalAlignment="Top" Background="White">
                         <Button x:Name="FrpcOldStartButton1" Content="启动" Width="80" Height="50" Margin="25,0,0,0" Click="FrpcOldStartButton1_Click"/>
@@ -64,7 +64,7 @@
                 <Grid Background="WhiteSmoke">
                     <StackPanel HorizontalAlignment="Center" Height="500" VerticalAlignment="Top" Width="714" Background="White">
                         <TextBlock Height="26" TextWrapping="Wrap" Text="Frps 32位 V0.51.3（服务端）" Width="640" Margin="0,20,0,0" FontSize="20" FontWeight="Bold"/>
-                        <TextBox x:Name="FrpsOldText" Height="400" TextWrapping="Wrap" Text="" Width="660" Margin="0,20,0,0" VerticalScrollBarVisibility="Auto" IsReadOnly="True" UndoLimit="10"/>
+                        <TextBox x:Name="FrpsOldText" Height="400" TextWrapping="Wrap" Text="" Width="660" Margin="0,20,0,0" VerticalScrollBarVisibility="Auto" IsReadOnly="True" UndoLimit="1"/>
                     </StackPanel>
                     <DockPanel HorizontalAlignment="Left" Height="75" LastChildFill="False" Margin="0,505,0,0" VerticalAlignment="Top" Background="White">
                         <Button x:Name="FrpsOldStartButton1" Content="启动" Width="80" Height="50" Margin="25,0,0,0" Click="FrpsOldStartButton1_Click"/>

@@ -1,5 +1,5 @@
 ﻿frp_controller
-0.24.1
+0.24.3
 
 winexe
 C#
@@ -16,5 +16,5 @@ F:\Git\frp-ui\App.xaml
 208-1895747141
 MainWindow.xaml;pages\AboutPage.xaml;pages\AutoStartPage.xaml;pages\EditorPage.xaml;pages\SamplesPage.xaml;
 
-False
+True
 

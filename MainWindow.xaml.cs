@@ -39,7 +39,10 @@ namespace frp_control
         bool frpc32autostart = false;
         bool frps32autostart = false;
         int touchxfs = 0;
-
+        int countfrpc = 0;
+        int countfrps = 0;  
+        int countfrpc32 = 0;
+        int countfrps32 = 0;
         System.Windows.Forms.NotifyIcon notifyIcon = new System.Windows.Forms.NotifyIcon();
         public MainWindow()
         {
@@ -169,39 +172,47 @@ namespace frp_control
         private void AddTextToFrpcText(string str)
         {
             this.FrpcText.Dispatcher.Invoke(new Action(() => { this.FrpcText.AppendText(str); }));
+            countfrpc++;
         }
 
         private void ClearTextToFrpcText()
         {
             this.FrpcText.Dispatcher.Invoke(new Action(() => { this.FrpcText.Clear(); }));
+            countfrpc = 0;
         }
         private void AddTextToFrpsText(string str)
         {
             this.FrpsText.Dispatcher.Invoke(new Action(() => { this.FrpsText.AppendText(str); }));
+            countfrps++;
         }
 
         private void ClearTextToFrpsText()
         {
             this.FrpsText.Dispatcher.Invoke(new Action(() => { this.FrpsText.Clear(); }));
+            countfrps = 0;
         }
 
         private void AddTextToFrpcOldText(string str)
         {
             this.FrpcOldText.Dispatcher.Invoke(new Action(() => { this.FrpcOldText.AppendText(str); }));
+            countfrpc32++;
         }
 
         private void ClearTextToFrpcOldText()
         {
             this.FrpcOldText.Dispatcher.Invoke(new Action(() => { this.FrpcOldText.Clear(); }));
+            countfrpc32 = 0;
         }
         private void AddTextToFrpsOldText(string str)
         {
             this.FrpsOldText.Dispatcher.Invoke(new Action(() => { this.FrpsOldText.AppendText(str); }));
+            countfrps32 = 0;
         }
 
         private void ClearTextToFrpsOldText()
         {
             this.FrpsOldText.Dispatcher.Invoke(new Action(() => { this.FrpsOldText.Clear(); }));
+            countfrps32 = 0;
         }
 
         public void Frpc_Prepare()
@@ -235,6 +246,10 @@ namespace frp_control
         private void Frpc_Output(string msg)
         {
             AddTextToFrpcText(msg);
+            if (countfrpc >= 200)
+            {
+                ClearTextToFrpcText() ;
+            }
         }
         public void Frps_Prepare()
         {
@@ -266,6 +281,10 @@ namespace frp_control
         private void Frps_Output(string msg)
         {
             AddTextToFrpsText(msg);
+            if (countfrps >= 200)
+            {
+                ClearTextToFrpsText();
+            }
         }
 
         public void FrpcOld_Prepare()
@@ -298,6 +317,10 @@ namespace frp_control
         private void FrpcOld_Output(string msg)
         {
             AddTextToFrpcOldText(msg);
+            if (countfrpc32 >= 200)
+            {
+                ClearTextToFrpcOldText();
+            }
         }
         public void FrpsOld_Prepare()
         {
@@ -329,6 +352,10 @@ namespace frp_control
         private void FrpsOld_Output(string msg)
         {
             AddTextToFrpsOldText(msg);
+            if (countfrps32 >= 200)
+            {
+                ClearTextToFrpsOldText();
+            }
         }
 
         private void FrpcStartButton1_Click(object sender, RoutedEventArgs e)

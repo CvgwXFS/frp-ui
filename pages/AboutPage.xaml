@@ -34,7 +34,7 @@
             </StackPanel>
             <ListView HorizontalAlignment="Center" Height="200" VerticalAlignment="Top" Width="640" Background="{x:Null}" Margin="0,20,0,0" FontSize="14" BorderBrush="{x:Null}">
                 <ListView.Items>
-                    <Label Content="软件版本：V0.24.2"/>
+                    <Label Content="软件版本：V0.24.3"/>
                     <Label Content="本软件为免费软件，本软件为开源软件。"/>
                     <Label Content="项目首页：（暂未公开）"/>
                     <Label Content="https://github.com/CvgwXFS/frp-controller"/>
